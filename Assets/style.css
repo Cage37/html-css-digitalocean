@@ -12,11 +12,12 @@ header{
     height: 600px;
 }
 
+/* First section Header */
+
 .topheader{
     height: 10%;
     background-color: white;
 }
-
 
 ul > li{
     list-style: none;
@@ -31,7 +32,6 @@ ul > li > a {
 
 .logo{
     width: 50%;
-    
 }
 
 .flexhead{
@@ -58,6 +58,8 @@ ul > li > a {
     flex-direction: row-reverse;
     word-spacing: 10px;
 }
+
+/* Second section Header */
 
 .bunnerheader{
     height: 90%;
@@ -88,7 +90,6 @@ ul > li > a {
 .rightheader{
     display: flex;
     flex-direction: row-reverse;
-    
 }
 
 .contsign{
@@ -162,3 +163,53 @@ ul > li > a {
     color: #5184F7;
 }
 
+/* Main */
+
+/* First section Main */
+
+.firsthead{
+    height: 300px;
+    background-color: #F3F5F9;
+}
+
+.customer .col-12 h4{
+    text-align: center;
+    color: #747E97;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.customerimg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customerimg > img{
+    width: 15%;
+}
+
+.acustomer{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    
+}
+
+.customer .acustomer > a {
+    text-decoration: none;
+    color: #5184F7;
+}
+
+/* Second section Main */
+
+/* Third section Main */
+
+/* Fourth section Main */
+
+/* Fifth section Main */
+
+/* Sixth section Main */
+
+/* Seventh section Main */
+
+/* Footer */
