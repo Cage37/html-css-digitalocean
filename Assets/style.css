@@ -391,6 +391,45 @@ ul > li > a {
 
 /* Fifth section Main */
 
+.fifthmain{
+    height: 400px;
+    background: linear-gradient(180deg, #1941BA 0%, #081F95 99.99%, rgba(255, 255, 255, 0) 100%, #092096 100%);
+}
+
+.contservice{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contservice h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.contregion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.region{
+    width: 550px;
+    height: 40px;
+    padding-top: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.region .col-2 a{
+    text-decoration: none;
+    color: #5CCACE;
+}
+
+.bbregion{
+    border-bottom: none;
+}
 /* Sixth section Main */
 
 /* Seventh section Main */
