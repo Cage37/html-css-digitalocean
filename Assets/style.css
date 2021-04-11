@@ -432,6 +432,88 @@ ul > li > a {
 }
 /* Sixth section Main */
 
+.sixthmain{
+    height: 750px;
+    background-color: #F3F5F9;
+}
+
+.divsixth{
+    text-align: center;
+}
+
+.sixthbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.sixthbox img{
+    width: 50%;
+}
+
+.divsixth h2{
+    margin-top: 70px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0A1C4B;
+}
+
+.rockerbox{
+    width: 720px;
+    height: 400px;
+    text-align: center;
+    padding-top: 70px;
+    background-color: white;
+}
+
+.rockerbox p{
+    margin-top: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #717B95;
+}
+
+.rockerbox span{
+    color: #0A1C4B;
+}
+
+.rockerbox a{
+    text-decoration: none;
+    line-height: 100px;
+    color: #366FF7;
+}
+
+.circlemargin{
+    margin-top: 50px;
+}
+
 /* Seventh section Main */
+
+.seventhmain{
+    height: 250px;
+    background: linear-gradient(180deg, #1941BA 0%, #081F95 99.99%, rgba(255, 255, 255, 0) 100%, #092096 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seventhcont{
+    text-align: center;
+}
+
+.seventhcont h2{
+    font-size: 2.5rem;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.seventhcont a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: white;
+    color: #366FF7;
+    border-radius: 5px;
+}
 
 /* Footer */
