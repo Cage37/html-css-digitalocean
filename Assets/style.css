@@ -8,15 +8,12 @@
 
 /* Header */
 
-header{
-    height: 600px;
-}
-
 /* First section Header */
 
 .topheader{
-    height: 10%;
     background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 ul > li{
@@ -59,16 +56,15 @@ ul > li > a {
     word-spacing: 10px;
 }
 
+.menu{
+    opacity: 0;
+}
+
 /* Second section Header */
 
 .bunnerheader{
-    height: 90%;
     background-image: url(./IMG/bg-banner-home.jpg);
     background-size: 110% 100%;
-}
-
-.mainheader{
-    height: 100%;
 }
 
 .leftheader{
@@ -90,6 +86,7 @@ ul > li > a {
 .rightheader{
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 70px;
 }
 
 .contsign{
@@ -168,7 +165,6 @@ ul > li > a {
 /* First section Main */
 
 .firsthead{
-    height: 300px;
     background-color: #F3F5F9;
 }
 
@@ -192,7 +188,7 @@ ul > li > a {
     text-align: center;
     margin-top: 30px;
     font-size: 18px;
-    
+    margin-bottom: 30px;
 }
 
 .customer .acustomer > a {
@@ -201,10 +197,6 @@ ul > li > a {
 }
 
 /* Second section Main */
-
-.secondmain{
-    height: 700px;
-}
 
 .addeploy{
     height: 30%;
@@ -225,7 +217,6 @@ ul > li > a {
 }
 
 .scndmain{
-    height: 70%;
     display: flex;
     flex-direction: row;
 }
@@ -238,6 +229,7 @@ ul > li > a {
     align-items: center;
     color: #778098;
     font-size: 20px;
+    margin-top: 90px;
 }
 
 .list > ul > li{
@@ -251,6 +243,7 @@ ul > li > a {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .divinfo{
@@ -287,7 +280,6 @@ ul > li > a {
 /* Third section Main */
 
 .thirdmain{
-    height: 750px;
     background-color: #F3F5F9;
 }
 
@@ -339,6 +331,7 @@ ul > li > a {
 .divcircle{
     display: flex;
     justify-content: center;
+    padding-bottom: 70px;
 }
 
 .circle{
@@ -356,10 +349,6 @@ ul > li > a {
 
 /* Fourth section Main */
 
-.fourthmain{
-    height: 500px;
-}
-
 .fourthtitle{
     text-align: center;
     padding-top: 70px;
@@ -367,8 +356,9 @@ ul > li > a {
     color: #0A1C4B;
 }
 
-.fourthtable{
-    padding-top: 100px;
+.tablecont{
+    padding-top: 70px;
+    padding-bottom: 100px;
 }
 
 .fourthtable h4{
@@ -392,7 +382,6 @@ ul > li > a {
 /* Fifth section Main */
 
 .fifthmain{
-    height: 400px;
     background: linear-gradient(180deg, #1941BA 0%, #081F95 99.99%, rgba(255, 255, 255, 0) 100%, #092096 100%);
 }
 
@@ -412,6 +401,7 @@ ul > li > a {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 .region{
@@ -432,10 +422,10 @@ ul > li > a {
 .bbregion{
     border-bottom: none;
 }
+
 /* Sixth section Main */
 
 .sixthmain{
-    height: 750px;
     background-color: #F3F5F9;
 }
 
@@ -493,7 +483,6 @@ ul > li > a {
 /* Seventh section Main */
 
 .seventhmain{
-    height: 250px;
     background: linear-gradient(180deg, #1941BA 0%, #081F95 99.99%, rgba(255, 255, 255, 0) 100%, #092096 100%);
     display: flex;
     justify-content: center;
@@ -502,6 +491,8 @@ ul > li > a {
 
 .seventhcont{
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .seventhcont h2{
@@ -521,12 +512,11 @@ ul > li > a {
 /* Footer */
 
 footer{
-    height: 600px;
     background-color: #0A1C4B;
 }
 
 .contfooter{
-    height: 600px;
+    padding-bottom: 50px;
 }
 
 .contfooter img{
@@ -616,4 +606,282 @@ footer{
 
 .botnumber span{
     color: white;
+}
+
+/* Media Query XS */
+
+@media screen and (max-width: 767px){
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    /* Header */
+
+    .hcenter ul > li {
+       display: none;
+    }
+
+    .hright ul > li{
+        display: none;
+    }
+
+    .logo{
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .menu{
+        opacity: 1;
+        margin-right: 20px;
+        font-size: 20px;
+        color: #366FF7;
+    }
+
+    .leftheader h1{
+        padding-left: 10px;
+    }
+
+    .leftheader p{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .rightheader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* First section main */
+
+    .customer h4{
+        font-size: 20px;
+    }
+    
+    .customerimg{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .customerimg img{
+        width: 35%;
+    }
+
+    /* Second section main */
+
+    .list{
+       display: flex;
+       justify-content: left;
+       align-items: flex-start;
+       padding-left: 20px;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .divinfo{
+        width: 100%;
+        margin-left: -30px;
+    }
+
+    .divinfopadd{
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+
+    .infomargin{
+        margin-top: -50px;
+    }
+
+    .scndmain{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /* Third section main */
+
+    .divthird h2{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .thirdimg img{
+        padding-top: 120px;
+        width: 70%;
+    }
+
+    .arrowright, .arrowleft{
+        color: transparent;
+    }
+      
+    .divcircle{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+
+    /* Fourth section main */
+
+    .fourthtable{
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+
+    /* Fifth section main */
+
+    .contregion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bbregion{
+        border-bottom: 1px solid white;
+    }
+
+    /* Sixth section main */
+
+    .rockerbox{
+        width: 50%;
+    }
+
+    .rockerbox img{
+        width: 100%;
+    }
+
+    .circlemargin{
+        padding-top: 10px;
+    }
+
+    /* Footer */
+
+    footer{
+        padding-left: 10px;
+    }
+
+    .paddfooter{
+        margin-top: -70px;
+    }
+}
+
+/* Media Query MD */
+
+@media screen and (min-width: 768px)
+and (max-width: 991px) {
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Header */
+
+    .hcenter ul > li {
+        display: none;
+     }
+ 
+     .hright ul > li{
+         display: none;
+     }
+
+     .logo{
+         width: 70%;
+         margin-left: 40px;
+     }
+
+     .menu{
+        opacity: 1;
+        margin-right: 40px;
+        font-size: 30px;
+        color: #366FF7;
+    }
+
+    .leftheader h1{
+        font-size: 2.5rem;
+    }
+
+    .leftheader p{
+        font-size: 15px;
+        word-spacing: 0;
+        padding-left: 10px;
+    }
+
+    .contsign{
+        height: auto;
+    }
+    
+    .signup a{
+        padding-left: 64px;
+    }
+
+    /* Third section main */
+
+    .divthird h2{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .thirdimg img{
+        padding-top: 120px;
+        width: 70%;
+    }
+
+    .divcircle{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    /* Fifth section main */
+
+    .contregion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .region{
+        width: 100%;
+    }
+
+    .region .col-3{
+        text-align: right;
+    }
+
+    .bbregion{
+        border-bottom: 1px solid white;
+    }
+
+    /* Sixth section main */
+
+    .rockerbox{
+        width: 50%;
+    }
+
+    .rockerbox img{
+        width: 100%;
+    }
+
+    .circlemargin{
+        padding-top: 10px;
+    }
 }
